@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snake — Caleb Carter</title>
+<meta name="description" content="Caleb Carter — graphic designer based in Leeds. Print, digital, still and motion graphics.">
+<script>document.documentElement.className+=' js'</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+<main class="page no-panel" style="grid-template-columns:minmax(180px,25%) 1fr">
+  <div class="col"><div class="text-label" data-type="fast">Snake:</div></div>
+  <div class="col">
+    <div class="snake-wrap">
+      <canvas id="snake" width="320" height="320" aria-label="Snake game"></canvas>
+      <div id="score">score: 0</div>
+      <a class="back" href="index.html" style="display:block;margin-top:2.4em" data-type>&lt;&lt; Go back.</a>
+    </div>
+  </div>
+</main>
+<div class="footer" data-type="fast">@cjc.gd 2026</div>
+</body>
+</html>
